@@ -1,0 +1,142 @@
+
+.box{
+	margin:20px;
+	-webkit-box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+	z-index: 1;
+	height:150px;
+}
+.detail_box{
+	margin:20px;
+	-webkit-box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+	z-index: 1;
+	height:fit-content;
+
+}
+.file{
+	display: block;
+	margin: 0 auto;
+	padding-left: 400px;
+}
+.main_pg_box{
+	background-color : blue;
+	margin : 40px;
+	border-radius : 10px 10px 10px 10px;
+	overflow: hidden;
+	height : 100px;
+	-webkit-box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.7);
+	box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.7);
+	z-index: 1;
+
+}
+.graph_pg_box{
+	margin:40px;
+	-webkit-box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.7);
+	box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.7);
+	z-index: 1;
+	
+	height:10px;
+
+}
+.Searchbar{
+	text-align: center;
+
+
+}
+.textArea{
+	color:red;
+}
+.input_box
+{	position: relative;
+	display: block;
+	margin: 0 auto;
+	padding-left: 400px;
+}
+
+.doc_details{
+	display: inline-block;
+	margin: 30px;
+	width: fit-content;
+
+}
+.fileArea{
+	display:inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: left;
+}
+.but{
+	
+	width: fit-content;
+}
+.doc_details_drag{
+	
+	width: fit-content;
+
+}
+table.scroll {
+    width: 860px; /* 140px * 5 column + 16px scrollbar width */
+    border-spacing: 0;
+    overflow-y: scroll;
+    height:400px;
+}
+
+
+table.scroll tbody {
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+table.scroll thead th {
+	
+	justify-content: space-around;
+	width:143px;
+    max-width: 400px;
+    position: relative;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+table.scroll tbody td{
+    width: 140px;
+}
+
+
+thead tr th { 
+    height: 10px;
+    line-height: 10px;
+    /*text-align: left;*/
+}
+
+
+.ReactTable .rt-thead,.Header {
+  overflow-y: scroll;
+  background-color: #000;
+  Color:white;
+  text-align: left;
+}
+.nav_pg_box{
+	margin:20px;
+	-webkit-box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+	
+	
+	height:30px;
+
+}
+.grid {
+	min-height: 100%;
+	display: flex;
+	flex-wrap : wrap;
+	flex-direction : row;
+
+}
+
+.grid > div{
+	flex-basis: calc(20% - 40px);
+}
+
