@@ -1,0 +1,146 @@
+
+
+/*assign full width inputs*/
+  input[type=text],
+  input[type=password] {
+    width: 100%;
+    display: block;
+    border: 1px solid #ccc;
+        box-sizing: border-box;
+        background-color: white;
+    height: 30px;
+
+  }
+  label{
+    padding :0px;
+
+  }
+.showError{    
+  border-color: #a94442 !important;    
+  color: #a94442 !important;    
+  margin-bottom: 15px;    
+}
+
+  /*set a style for the buttons*/
+  button {
+    background-color: green;
+    color: white;
+    padding: 7px 10px;
+    margin: 4px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  /* set a hover effect for the button*/
+  button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+
+  }
+
+  /*set extra style for the cancel button*/
+  .cancelbtn {
+    width: auto;
+    padding: 5px 9px;
+    background-color: white;
+  }
+  .signupbtn {
+    text-align: center;
+    width: 100%;
+    background-color: green;
+
+
+  }
+  /*centre the display image inside the container*/
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+        position: relative;
+        background-color: white;
+  }
+  .imgcontainer p {
+    width: auto;
+    font-family: 'Poor Story', cursive;
+    font-family: 'Salsa', cursive;
+    font-size: 20px;
+  }
+  /*set image properties*/
+  img.avatar {
+    width: 20%;
+        border-radius: 50%;
+
+  }
+  .container1 {
+    padding: 16px;
+    background-color:  white;
+
+  }
+  .container1 p:hover {
+    cursor: pointer;
+  }
+
+  /*set padding to the container*/
+  .container {
+    padding: 16px;
+    background-color:  white;
+  }
+
+  /*set the forgot password text*/
+  span.psw {
+    float: right;
+    display: inline-block;
+
+    
+  }
+  .container1 p{
+    width: auto;
+    
+    word-wrap: break-word;
+    text-decoration: underline;
+    color: blue;
+  }
+
+  /*set the Modal background*/
+  .modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding-top: 20px;
+  }
+
+  /*style the model content box*/
+  .modal-content {
+    background-color: white;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 40%;
+  }
+
+  /*style the close button*/
+  .close {
+    position: absolute;
+    right: 12px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    background-color: green;
+
+  }
