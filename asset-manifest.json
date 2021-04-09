@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tdsbachao/static/css/main.ac3e634f.chunk.css",
+    "main.js": "/tdsbachao/static/js/main.4e7cf3e9.chunk.js",
+    "main.js.map": "/tdsbachao/static/js/main.4e7cf3e9.chunk.js.map",
+    "runtime-main.js": "/tdsbachao/static/js/runtime-main.db000650.js",
+    "runtime-main.js.map": "/tdsbachao/static/js/runtime-main.db000650.js.map",
+    "static/css/2.8e3d334f.chunk.css": "/tdsbachao/static/css/2.8e3d334f.chunk.css",
+    "static/js/2.599c7277.chunk.js": "/tdsbachao/static/js/2.599c7277.chunk.js",
+    "static/js/2.599c7277.chunk.js.map": "/tdsbachao/static/js/2.599c7277.chunk.js.map",
+    "static/js/3.466ccb3f.chunk.js": "/tdsbachao/static/js/3.466ccb3f.chunk.js",
+    "static/js/3.466ccb3f.chunk.js.map": "/tdsbachao/static/js/3.466ccb3f.chunk.js.map",
+    "index.html": "/tdsbachao/index.html",
+    "static/css/2.8e3d334f.chunk.css.map": "/tdsbachao/static/css/2.8e3d334f.chunk.css.map",
+    "static/css/main.ac3e634f.chunk.css.map": "/tdsbachao/static/css/main.ac3e634f.chunk.css.map",
+    "static/js/2.599c7277.chunk.js.LICENSE.txt": "/tdsbachao/static/js/2.599c7277.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db000650.js",
+    "static/css/2.8e3d334f.chunk.css",
+    "static/js/2.599c7277.chunk.js",
+    "static/css/main.ac3e634f.chunk.css",
+    "static/js/main.4e7cf3e9.chunk.js"
+  ]
+}
